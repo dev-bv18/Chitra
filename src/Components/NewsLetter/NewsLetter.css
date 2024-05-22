@@ -1,0 +1,56 @@
+.newsletter
+{width: 65%;
+height: 40vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: auto;
+padding: 0px 140px;
+margin-bottom: 150px;
+background: linear-gradient(45deg,rgba(0, 44, 111, 0.337),rgb(0, 92, 15)),url(../assets/hero_image.webp);
+ background-size: cover;
+ animation:move 3s infinite;
+gap: 30px;}
+.newsletter h1{
+    color: lightblue;
+    font-size: 55px;
+    font-weight: 600;
+}
+.newsletter p{
+    color: white;
+    font-size: 20px;
+
+}
+.newsletter div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid lightblue;
+}
+.newsletter input
+{
+    width: 500px;
+    margin: 30px;
+    border: none;
+    outline: none;
+    color: rgb(61, 101, 0);
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.newsletter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    border: 0;
+    background: rgb(0, 44, 111);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
