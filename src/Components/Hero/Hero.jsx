@@ -16,10 +16,12 @@ const Hero=()=>
 </div>
 <p>Artworks</p>
 <p>For Everyone</p>
+<a href="#new">
 <div className="hero-latest-btn">
               <div>Latest Arrivals</div> 
                 <img src={arrow_icon} alt="" />
             </div>
+</a>
             </div>
           
             <div className="hero-right">

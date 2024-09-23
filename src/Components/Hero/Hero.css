@@ -36,6 +36,10 @@ font-weight: 600;
 .hero-hand-icon img{
     width: 105px;
 }
+a{
+    text-decoration: none;
+
+}
 .hero-latest-btn
 {display: flex;
 justify-content: center;

@@ -1,0 +1,71 @@
+.contact{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.085),rgb(0, 0, 0)),url(../../Components/assets/edited.jpg);
+    background-size: contain;
+    padding-top: 100px;}
+    .contact-container{
+        width: 580px;
+        height: 600px;
+        background: white;
+        margin: auto;
+        padding: 40px 60px;
+    }
+    .contact-container h1{
+        margin: 20px 0px;
+    }
+    .contact-fields{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        margin-top: 30px;
+    }
+    .contact-fields input,textarea{
+        height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid rgb(0, 62, 62);
+    color: rgb(0, 0, 0);
+    font-size: 18px; 
+    }
+    .contact-container button{
+        width: 580px;
+        height: 72px;
+        color: white;
+        background: rgb(0, 116, 188);
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 24px;
+        font-weight:500;
+        cursor: pointer;
+     
+    }
+    .giff{
+        height: 15%;
+        width: 100%;
+        margin: 0%;
+        display: none;
+       
+    }
+    .rateus {
+        display: flex;
+        align-items: center;
+    }
+    #rating
+    {padding-left: 0px;
+    height: 5px;}
+    
+    #rate {
+        margin-left: 20px;
+        display: flex;
+        height: 20px;
+    }
+    
+    .filled-star {
+       color:rgb(255, 183, 0);
+    }
+    
+    .empty-star {
+        color: lightgray;
+    }
+    

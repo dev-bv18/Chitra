@@ -8,9 +8,10 @@ import Product from './pages/Product';
 import Cart from './pages/Cart';
 import LoginSignup from './pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
-import modern_banner from './Components/assets/banner_mens.png';
-import traditional_banner from './Components/assets/banner_women.png';
-import handicraft_banner from './Components/assets/banner_kids.png';
+import modern_banner from './Components/assets/banner_modern.png';
+import traditional_banner from './Components/assets/banner_trad.png';
+import handicraft_banner from './Components/assets/banner_hand.png';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           </Route>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/login' element={<LoginSignup/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           </Routes>
           <Footer/>
       

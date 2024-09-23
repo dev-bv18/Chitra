@@ -23,6 +23,11 @@ height: 163px;
     width: 586px;
     height: 700px;
 }
+.productdisplay-main-img:hover
+{
+   transition: all ease-in 0.1s;
+   box-shadow: 2px 4px 20px  rgb(143, 143, 143);
+}
 .productdisplay-right
 {
     margin: 0px 70px;
@@ -99,4 +104,15 @@ height: 163px;
 }
 .productdisplay-right-category span{
     font-weight: 600;
+}
+#popup{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background-color: white;
+    padding: 2%;
+    opacity: 80%;
+    border-radius: 20px;
+    display: none;
+    text-align: center;
 }

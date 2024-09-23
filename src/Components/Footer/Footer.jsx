@@ -4,6 +4,7 @@ import footer_logo from '../assets/logo2_big.svg'
 import instagram_icon from '../assets/instagram_icon.png'
 import pinterest_icon from '../assets/pintester_icon.png'
 import whatsapp_icon from '../assets/whatsapp_icon.png'
+import { Link } from 'react-router-dom'
 const Footer=()=>
 {
     return(
@@ -17,12 +18,12 @@ const Footer=()=>
             <li>Products</li>
             <li>Offices</li>
             <li>About</li>
-            <li>Contact</li>
+            <li><Link to='/contact'>Contact</Link></li>
           </ul>
           <div className="footer-social-icon">
             <div className='footer-icons-container'>
-                <img src={instagram_icon} alt="" />
-              
+               <a href="https://www.instagram.com/baibhav._.creates?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src={instagram_icon} alt="" />
+               </a> 
             </div>
             <div className="footer-icons-container">
             <img src={pinterest_icon} alt="" />
