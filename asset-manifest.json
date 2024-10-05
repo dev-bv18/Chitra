@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chitra/static/css/main.b126fefe.css",
-    "main.js": "/Chitra/static/js/main.8030be6b.js",
+    "main.css": "/Chitra/static/css/main.6d4bf337.css",
+    "main.js": "/Chitra/static/js/main.45344d56.js",
     "static/media/edited.jpg": "/Chitra/static/media/edited.0cf0b70271fa0c327742.jpg",
     "static/media/banner_trad.png": "/Chitra/static/media/banner_trad.077f27f0e07d5277e4df.png",
     "static/media/banner_hand.png": "/Chitra/static/media/banner_hand.424f6819b110c3aea822.png",
@@ -17,11 +17,11 @@
     "static/media/logo2_big.svg": "/Chitra/static/media/logo2_big.b2e3dae1afde51621a8492a57384f2fa.svg",
     "static/media/logo2.svg": "/Chitra/static/media/logo2.64fbee71610db3389e073b342d75ef4b.svg",
     "index.html": "/Chitra/index.html",
-    "main.b126fefe.css.map": "/Chitra/static/css/main.b126fefe.css.map",
-    "main.8030be6b.js.map": "/Chitra/static/js/main.8030be6b.js.map"
+    "main.6d4bf337.css.map": "/Chitra/static/css/main.6d4bf337.css.map",
+    "main.45344d56.js.map": "/Chitra/static/js/main.45344d56.js.map"
   },
   "entrypoints": [
-    "static/css/main.b126fefe.css",
-    "static/js/main.8030be6b.js"
+    "static/css/main.6d4bf337.css",
+    "static/js/main.45344d56.js"
   ]
 }
